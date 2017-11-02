@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C200EEBD1FA3E040005E20FA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C200EEBB1FA3E040005E20FA /* Interface.storyboard */; };
+		C200EEBF1FA3E040005E20FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C200EEBE1FA3E040005E20FA /* Assets.xcassets */; };
+		C200EEC61FA3E040005E20FA /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C200EEC51FA3E040005E20FA /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C200EECD1FA3E040005E20FA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200EECC1FA3E040005E20FA /* ExtensionDelegate.swift */; };
+		C200EECF1FA3E040005E20FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C200EECE1FA3E040005E20FA /* Assets.xcassets */; };
+		C200EED31FA3E040005E20FA /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C200EEB91FA3E040005E20FA /* Watch.app */; };
+		C200EEDC1FA3E331005E20FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C258A98D1F88E900006A17C8 /* Assets.xcassets */; };
+		C200EEDD1FA3E334005E20FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C258A98D1F88E900006A17C8 /* Assets.xcassets */; };
+		C200EEE11FA3E510005E20FA /* ForecastInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200EEE01FA3E510005E20FA /* ForecastInterfaceController.swift */; };
+		C200EEE41FA3E68F005E20FA /* ForecastRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200EEE31FA3E68F005E20FA /* ForecastRowController.swift */; };
+		C200EEF01FA3FCB3005E20FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200EEEF1FA3FCB3005E20FA /* Constants.swift */; };
+		C209CA961F8A6DD100755B99 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C209CA951F8A6DD100755B99 /* ForecastCell.swift */; };
+		C21CE9621F8AA0760050DF95 /* Sportcast+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CE9611F8AA0760050DF95 /* Sportcast+UIImageView.swift */; };
+		C21CE9641F8AB6B60050DF95 /* DateSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21CE9631F8AB6B60050DF95 /* DateSectionHeader.xib */; };
+		C21CE9661F8AB73B0050DF95 /* DateSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21CE9651F8AB73B0050DF95 /* DateSectionHeader.swift */; };
+		C228A2681FA262870054C126 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C228A2671FA262870054C126 /* Forecast.swift */; };
+		C228A26A1FA263290054C126 /* Managed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C228A2691FA263290054C126 /* Managed.swift */; };
+		C228A26C1FA263BA0054C126 /* NSManagedObjectContext+Square1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C228A26B1FA263BA0054C126 /* NSManagedObjectContext+Square1.swift */; };
+		C2374DB01F88F8E700A259CB /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2374DAF1F88F8E700A259CB /* APIError.swift */; };
+		C258A9871F88E900006A17C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258A9861F88E900006A17C8 /* AppDelegate.swift */; };
+		C258A98C1F88E900006A17C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C258A98A1F88E900006A17C8 /* Main.storyboard */; };
+		C258A98E1F88E900006A17C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C258A98D1F88E900006A17C8 /* Assets.xcassets */; };
+		C258A9911F88E900006A17C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C258A98F1F88E900006A17C8 /* LaunchScreen.storyboard */; };
+		C258A99B1F88F497006A17C8 /* SportcastAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258A99A1F88F497006A17C8 /* SportcastAPI.swift */; };
+		C258A99E1F88F572006A17C8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258A99D1F88F572006A17C8 /* Constants.swift */; };
+		C2C1F7E51FA416D3009A2BAD /* Sportcast+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1F7E41FA416D3009A2BAD /* Sportcast+Date.swift */; };
+		C2E44A5D1FA269A0002539BD /* OpenWeatherAPISearchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E44A5C1FA269A0002539BD /* OpenWeatherAPISearchType.swift */; };
+		C2E44A5F1FA26ED3002539BD /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E44A5E1FA26ED3002539BD /* CoreDataStack.swift */; };
+		C2E44A821FA279FD002539BD /* WeatherRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E44A811FA279FD002539BD /* WeatherRange.swift */; };
+		C2F9592C1F8A3A830085AE90 /* Sportcast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2F9592A1F8A3A830085AE90 /* Sportcast.xcdatamodeld */; };
+		C2F959591F8A413E0085AE90 /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F959581F8A413E0085AE90 /* ForecastViewController.swift */; };
+		C2F9595B1F8A4B200085AE90 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9595A1F8A4B200085AE90 /* Result.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C200EEC71FA3E040005E20FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C258A97B1F88E900006A17C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C200EEC41FA3E040005E20FA;
+			remoteInfo = "Watch Extension";
+		};
+		C200EED11FA3E040005E20FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C258A97B1F88E900006A17C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C200EEB81FA3E040005E20FA;
+			remoteInfo = Watch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C200EED71FA3E040005E20FA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C200EEC61FA3E040005E20FA /* Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C200EEDB1FA3E040005E20FA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C200EED31FA3E040005E20FA /* Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21CE95D1F8A92310050DF95 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C200EEB91FA3E040005E20FA /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C200EEBC1FA3E040005E20FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C200EEBE1FA3E040005E20FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C200EEC01FA3E040005E20FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C200EEC51FA3E040005E20FA /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C200EECC1FA3E040005E20FA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C200EECE1FA3E040005E20FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C200EED01FA3E040005E20FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C200EEE01FA3E510005E20FA /* ForecastInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastInterfaceController.swift; sourceTree = "<group>"; };
+		C200EEE31FA3E68F005E20FA /* ForecastRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastRowController.swift; sourceTree = "<group>"; };
+		C200EEEF1FA3FCB3005E20FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C209CA951F8A6DD100755B99 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
+		C21CE95F1F8A92A00050DF95 /* Sportcast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sportcast.entitlements; sourceTree = "<group>"; };
+		C21CE9611F8AA0760050DF95 /* Sportcast+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sportcast+UIImageView.swift"; sourceTree = "<group>"; };
+		C21CE9631F8AB6B60050DF95 /* DateSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateSectionHeader.xib; sourceTree = "<group>"; };
+		C21CE9651F8AB73B0050DF95 /* DateSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSectionHeader.swift; sourceTree = "<group>"; };
+		C228A2671FA262870054C126 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		C228A2691FA263290054C126 /* Managed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Managed.swift; sourceTree = "<group>"; };
+		C228A26B1FA263BA0054C126 /* NSManagedObjectContext+Square1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Square1.swift"; sourceTree = "<group>"; };
+		C2374DAF1F88F8E700A259CB /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		C258A9831F88E900006A17C8 /* Sportcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sportcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C258A9861F88E900006A17C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C258A98B1F88E900006A17C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C258A98D1F88E900006A17C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C258A9901F88E900006A17C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C258A9921F88E900006A17C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C258A99A1F88F497006A17C8 /* SportcastAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportcastAPI.swift; sourceTree = "<group>"; };
+		C258A99D1F88F572006A17C8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C2C1F7E41FA416D3009A2BAD /* Sportcast+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sportcast+Date.swift"; sourceTree = "<group>"; };
+		C2E44A5C1FA269A0002539BD /* OpenWeatherAPISearchType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherAPISearchType.swift; sourceTree = "<group>"; };
+		C2E44A5E1FA26ED3002539BD /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		C2E44A811FA279FD002539BD /* WeatherRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRange.swift; sourceTree = "<group>"; };
+		C2F9592B1F8A3A830085AE90 /* Sportcast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sportcast.xcdatamodel; sourceTree = "<group>"; };
+		C2F959581F8A413E0085AE90 /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
+		C2F9595A1F8A4B200085AE90 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C200EEC21FA3E040005E20FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C258A9801F88E900006A17C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C200EEBA1FA3E040005E20FA /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				C200EEBB1FA3E040005E20FA /* Interface.storyboard */,
+				C200EEBE1FA3E040005E20FA /* Assets.xcassets */,
+				C200EEC01FA3E040005E20FA /* Info.plist */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		C200EEC91FA3E040005E20FA /* Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C200EECC1FA3E040005E20FA /* ExtensionDelegate.swift */,
+				C200EECE1FA3E040005E20FA /* Assets.xcassets */,
+				C200EED01FA3E040005E20FA /* Info.plist */,
+				C200EEE01FA3E510005E20FA /* ForecastInterfaceController.swift */,
+				C200EEE31FA3E68F005E20FA /* ForecastRowController.swift */,
+				C200EEEF1FA3FCB3005E20FA /* Constants.swift */,
+			);
+			path = "Watch Extension";
+			sourceTree = "<group>";
+		};
+		C209CA941F8A6DC300755B99 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C209CA951F8A6DD100755B99 /* ForecastCell.swift */,
+				C21CE9631F8AB6B60050DF95 /* DateSectionHeader.xib */,
+				C21CE9651F8AB73B0050DF95 /* DateSectionHeader.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C21CE9601F8AA0660050DF95 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C21CE9611F8AA0760050DF95 /* Sportcast+UIImageView.swift */,
+				C2C1F7E41FA416D3009A2BAD /* Sportcast+Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C258A97A1F88E900006A17C8 = {
+			isa = PBXGroup;
+			children = (
+				C258A9851F88E900006A17C8 /* Sportcast */,
+				C200EEBA1FA3E040005E20FA /* Watch */,
+				C200EEC91FA3E040005E20FA /* Watch Extension */,
+				C258A9841F88E900006A17C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C258A9841F88E900006A17C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C258A9831F88E900006A17C8 /* Sportcast.app */,
+				C200EEB91FA3E040005E20FA /* Watch.app */,
+				C200EEC51FA3E040005E20FA /* Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C258A9851F88E900006A17C8 /* Sportcast */ = {
+			isa = PBXGroup;
+			children = (
+				C21CE9601F8AA0660050DF95 /* Extensions */,
+				C21CE95F1F8A92A00050DF95 /* Sportcast.entitlements */,
+				C209CA941F8A6DC300755B99 /* Cells */,
+				C2F959571F8A41290085AE90 /* Controller */,
+				C2F9594E1F8A3DB20085AE90 /* Persistance */,
+				C258A99C1F88F568006A17C8 /* Constants */,
+				C258A9991F88F47C006A17C8 /* API */,
+				C258A9981F88F470006A17C8 /* Storyboard */,
+				C258A9861F88E900006A17C8 /* AppDelegate.swift */,
+				C258A98D1F88E900006A17C8 /* Assets.xcassets */,
+				C258A9921F88E900006A17C8 /* Info.plist */,
+				C2F9592A1F8A3A830085AE90 /* Sportcast.xcdatamodeld */,
+			);
+			path = Sportcast;
+			sourceTree = "<group>";
+		};
+		C258A9981F88F470006A17C8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C258A98F1F88E900006A17C8 /* LaunchScreen.storyboard */,
+				C258A98A1F88E900006A17C8 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C258A9991F88F47C006A17C8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C258A99A1F88F497006A17C8 /* SportcastAPI.swift */,
+				C2374DAF1F88F8E700A259CB /* APIError.swift */,
+				C2F9595A1F8A4B200085AE90 /* Result.swift */,
+				C2E44A5C1FA269A0002539BD /* OpenWeatherAPISearchType.swift */,
+				C2E44A811FA279FD002539BD /* WeatherRange.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C258A99C1F88F568006A17C8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C258A99D1F88F572006A17C8 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C2F9594E1F8A3DB20085AE90 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				C2F959521F8A3F130085AE90 /* Model */,
+				C228A2691FA263290054C126 /* Managed.swift */,
+				C228A26B1FA263BA0054C126 /* NSManagedObjectContext+Square1.swift */,
+				C2E44A5E1FA26ED3002539BD /* CoreDataStack.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		C2F959521F8A3F130085AE90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C228A2671FA262870054C126 /* Forecast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2F959571F8A41290085AE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2F959581F8A413E0085AE90 /* ForecastViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C200EEB81FA3E040005E20FA /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C200EED81FA3E040005E20FA /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				C200EEB71FA3E040005E20FA /* Resources */,
+				C200EED71FA3E040005E20FA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C200EEC81FA3E040005E20FA /* PBXTargetDependency */,
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = C200EEB91FA3E040005E20FA /* Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C200EEC41FA3E040005E20FA /* Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C200EED41FA3E040005E20FA /* Build configuration list for PBXNativeTarget "Watch Extension" */;
+			buildPhases = (
+				C200EEC11FA3E040005E20FA /* Sources */,
+				C200EEC21FA3E040005E20FA /* Frameworks */,
+				C200EEC31FA3E040005E20FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Extension";
+			productName = "Watch Extension";
+			productReference = C200EEC51FA3E040005E20FA /* Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		C258A9821F88E900006A17C8 /* Sportcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C258A9951F88E900006A17C8 /* Build configuration list for PBXNativeTarget "Sportcast" */;
+			buildPhases = (
+				C258A97F1F88E900006A17C8 /* Sources */,
+				C258A9801F88E900006A17C8 /* Frameworks */,
+				C258A9811F88E900006A17C8 /* Resources */,
+				C21CE95D1F8A92310050DF95 /* Embed App Extensions */,
+				C200EEDB1FA3E040005E20FA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C200EED21FA3E040005E20FA /* PBXTargetDependency */,
+			);
+			name = Sportcast;
+			productName = Sportcast;
+			productReference = C258A9831F88E900006A17C8 /* Sportcast.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C258A97B1F88E900006A17C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Alexandre Rubio";
+				TargetAttributes = {
+					C200EEB81FA3E040005E20FA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C200EEC41FA3E040005E20FA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C258A9821F88E900006A17C8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C258A97E1F88E900006A17C8 /* Build configuration list for PBXProject "Sportcast" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C258A97A1F88E900006A17C8;
+			productRefGroup = C258A9841F88E900006A17C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C258A9821F88E900006A17C8 /* Sportcast */,
+				C200EEB81FA3E040005E20FA /* Watch */,
+				C200EEC41FA3E040005E20FA /* Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C200EEB71FA3E040005E20FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C200EEBF1FA3E040005E20FA /* Assets.xcassets in Resources */,
+				C200EEDD1FA3E334005E20FA /* Assets.xcassets in Resources */,
+				C200EEBD1FA3E040005E20FA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C200EEC31FA3E040005E20FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C200EEDC1FA3E331005E20FA /* Assets.xcassets in Resources */,
+				C200EECF1FA3E040005E20FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C258A9811F88E900006A17C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C258A9911F88E900006A17C8 /* LaunchScreen.storyboard in Resources */,
+				C258A98E1F88E900006A17C8 /* Assets.xcassets in Resources */,
+				C21CE9641F8AB6B60050DF95 /* DateSectionHeader.xib in Resources */,
+				C258A98C1F88E900006A17C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C200EEC11FA3E040005E20FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C200EEF01FA3FCB3005E20FA /* Constants.swift in Sources */,
+				C200EEE11FA3E510005E20FA /* ForecastInterfaceController.swift in Sources */,
+				C200EEE41FA3E68F005E20FA /* ForecastRowController.swift in Sources */,
+				C200EECD1FA3E040005E20FA /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C258A97F1F88E900006A17C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E44A5F1FA26ED3002539BD /* CoreDataStack.swift in Sources */,
+				C228A26A1FA263290054C126 /* Managed.swift in Sources */,
+				C21CE9621F8AA0760050DF95 /* Sportcast+UIImageView.swift in Sources */,
+				C2E44A5D1FA269A0002539BD /* OpenWeatherAPISearchType.swift in Sources */,
+				C258A9871F88E900006A17C8 /* AppDelegate.swift in Sources */,
+				C2C1F7E51FA416D3009A2BAD /* Sportcast+Date.swift in Sources */,
+				C228A2681FA262870054C126 /* Forecast.swift in Sources */,
+				C209CA961F8A6DD100755B99 /* ForecastCell.swift in Sources */,
+				C2F959591F8A413E0085AE90 /* ForecastViewController.swift in Sources */,
+				C21CE9661F8AB73B0050DF95 /* DateSectionHeader.swift in Sources */,
+				C2F9592C1F8A3A830085AE90 /* Sportcast.xcdatamodeld in Sources */,
+				C2E44A821FA279FD002539BD /* WeatherRange.swift in Sources */,
+				C2F9595B1F8A4B200085AE90 /* Result.swift in Sources */,
+				C228A26C1FA263BA0054C126 /* NSManagedObjectContext+Square1.swift in Sources */,
+				C2374DB01F88F8E700A259CB /* APIError.swift in Sources */,
+				C258A99B1F88F497006A17C8 /* SportcastAPI.swift in Sources */,
+				C258A99E1F88F572006A17C8 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C200EEC81FA3E040005E20FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C200EEC41FA3E040005E20FA /* Watch Extension */;
+			targetProxy = C200EEC71FA3E040005E20FA /* PBXContainerItemProxy */;
+		};
+		C200EED21FA3E040005E20FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C200EEB81FA3E040005E20FA /* Watch */;
+			targetProxy = C200EED11FA3E040005E20FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C200EEBB1FA3E040005E20FA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C200EEBC1FA3E040005E20FA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		C258A98A1F88E900006A17C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C258A98B1F88E900006A17C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C258A98F1F88E900006A17C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C258A9901F88E900006A17C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C200EED51FA3E040005E20FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K95Q2W5DC;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rubio.Sportcast.watch.extension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		C200EED61FA3E040005E20FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K95Q2W5DC;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rubio.Sportcast.watch.extension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		C200EED91FA3E040005E20FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K95Q2W5DC;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rubio.Sportcast.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		C200EEDA1FA3E040005E20FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K95Q2W5DC;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rubio.Sportcast.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		C258A9931F88E900006A17C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C258A9941F88E900006A17C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C258A9961F88E900006A17C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K95Q2W5DC;
+				INFOPLIST_FILE = Sportcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rubio.Sportcast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C258A9971F88E900006A17C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K95Q2W5DC;
+				INFOPLIST_FILE = Sportcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rubio.Sportcast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C200EED41FA3E040005E20FA /* Build configuration list for PBXNativeTarget "Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C200EED51FA3E040005E20FA /* Debug */,
+				C200EED61FA3E040005E20FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C200EED81FA3E040005E20FA /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C200EED91FA3E040005E20FA /* Debug */,
+				C200EEDA1FA3E040005E20FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C258A97E1F88E900006A17C8 /* Build configuration list for PBXProject "Sportcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C258A9931F88E900006A17C8 /* Debug */,
+				C258A9941F88E900006A17C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C258A9951F88E900006A17C8 /* Build configuration list for PBXNativeTarget "Sportcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C258A9961F88E900006A17C8 /* Debug */,
+				C258A9971F88E900006A17C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2F9592A1F8A3A830085AE90 /* Sportcast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2F9592B1F8A3A830085AE90 /* Sportcast.xcdatamodel */,
+			);
+			currentVersion = C2F9592B1F8A3A830085AE90 /* Sportcast.xcdatamodel */;
+			path = Sportcast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C258A97B1F88E900006A17C8 /* Project object */;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Sportcast.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C200EEB81FA3E040005E20FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C21CE9511F8A92300050DF95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2374DB41F88FEE700A259CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C258A9821F88E900006A17C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
